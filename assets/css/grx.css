@@ -136,6 +136,22 @@ img {
   overflow: hidden;
 }
 
+.webs {
+  position: relative;
+  display: inline-block;
+}
+
+.webs .two{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.webs:hover .two {
+  display: inline;
+}
+
 /* 
 ---------------------------------------------
 global styles
